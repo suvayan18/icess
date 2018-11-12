@@ -206,6 +206,8 @@ public class CandidateController {
         return new ResponseEntity<Object>(returnValue.get() , HttpStatus.OK);
 	}
 	
+	/*suvayan18
+	suvayan1*/
 	
 	   private Path saveUploadedFiles(List<MultipartFile> files,String userid) throws IOException {
 	    	UPLOADED_FOLDER =environment.getRequiredProperty("upload.dir");
