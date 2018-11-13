@@ -152,7 +152,7 @@ public class CandidateController {
         return new ResponseEntity<Object>(returnValue.get() , HttpStatus.OK);
 	}
 	
-	/*@RequestMapping(value = "/getAllCandidate", method = RequestMethod.GET,headers="Accept=application/json")
+	@RequestMapping(value = "/getAllCandidate", method = RequestMethod.GET,headers="Accept=application/json")
 	public ResponseEntity<Object> getAllUser() 
     		throws InterruptedException, EvaluationException, ExecutionException {
 		
@@ -162,7 +162,7 @@ public class CandidateController {
             return new ResponseEntity<Object>(HttpStatus.NO_CONTENT);
         }
         return new ResponseEntity<Object>(returnValue.get() , HttpStatus.OK);
-	}*/
+	}
 	
 	
 	@RequestMapping(value = "/getAllPendingtestCandidate", method = RequestMethod.GET,headers="Accept=application/json")
